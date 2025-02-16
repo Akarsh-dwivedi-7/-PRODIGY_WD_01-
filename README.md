@@ -1,6 +1,6 @@
-# Travel.Io - Explore the World
+![Screenshot 2025-02-16 122652](https://github.com/user-attachments/assets/d9dfd88b-6392-40f5-9457-237476a904ae)# Travel.Io - Explore the World
 
-![Travel.Io Screenshot](screenshot.png) <!-- Add a screenshot if possible -->
+![Travel.Io Screenshot](TravelImage.png) <!-- Add a screenshot if possible -->
 
 Travel.Io is a modern, responsive, and interactive travel-themed landing page designed to inspire wanderlust and help users discover beautiful destinations around the world. Built with **HTML, CSS, and JavaScript**, this project showcases seamless animations, smooth scrolling, and a user-friendly interface.
 
