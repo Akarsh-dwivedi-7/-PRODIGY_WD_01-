@@ -1,0 +1,241 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Open Sans", sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  /* Navbar */
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .nav__logo a {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .nav__links {
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+  }
+  
+  .nav__links .link a {
+    color: #fff;
+    transition: color 0.3s;
+  }
+  
+  .nav__links .link a:hover {
+    color: #fead53;
+  }
+  
+  .search__box {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  
+  .search__box input {
+    padding: 0.5rem;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .search__box i {
+    font-size: 1.2rem;
+    cursor: pointer;
+  }
+  
+  /* Hero Section */
+  .hero {
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url("Assets/bg.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+  }
+  
+  .hero__content h1 {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+  }
+  
+  .hero__content p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .btns {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+  }
+  
+  .btns button {
+    padding: 0.75rem 2rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .explore__btn {
+    background-color: #fead53;
+    color: #fff;
+  }
+  
+  .contact__btn {
+    background-color: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+  }
+  
+  .btns button:hover {
+    opacity: 0.9;
+  }
+  
+  /* Destinations Section */
+  .destinations {
+    padding: 4rem 2rem;
+    text-align: center;
+  }
+  
+  .destinations h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  .destinations__grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+  }
+  
+  .destination__card {
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+  }
+  
+  .destination__card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .destination__card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .destination__card h3 {
+    font-size: 1.5rem;
+    margin: 1rem 0;
+  }
+  
+  .destination__card p {
+    padding: 0 1rem 1rem;
+    color: #666;
+  }
+  
+  /* About Section */
+  .about {
+    padding: 4rem 2rem;
+    text-align: center;
+    background-color: #f4f4f4;
+  }
+  
+  .about h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .about p {
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 1.1rem;
+    color: #666;
+  }
+  
+  /* Contact Section */
+  .contact {
+    padding: 4rem 2rem;
+    text-align: center;
+  }
+  
+  .contact h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  .contact form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: grid;
+    gap: 1rem;
+  }
+  
+  .contact .form__group input,
+  .contact .form__group textarea {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  .contact button {
+    padding: 0.75rem 2rem;
+    background-color: #fead53;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .contact button:hover {
+    background-color: #e69900;
+  }
+  
+  /* Footer */
+  footer {
+    padding: 1rem;
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+  }
+
+
+.developer__name {
+    margin-top: 1rem;
+    font-size: 1rem;
+    color: #fff;
+    opacity: 0.8;
+    font-style: italic;
+  }
