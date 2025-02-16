@@ -1,6 +1,6 @@
-![Screenshot 2025-02-16 122652](https://github.com/user-attachments/assets/d9dfd88b-6392-40f5-9457-237476a904ae)# Travel.Io - Explore the World
+# Travel.Io - Explore the World
 
-![Travel.Io Screenshot](TravelImage.png) <!-- Add a screenshot if possible -->
+![Travel.Io Screenshot](Travelimage.png) <!-- Add a screenshot if possible -->
 
 Travel.Io is a modern, responsive, and interactive travel-themed landing page designed to inspire wanderlust and help users discover beautiful destinations around the world. Built with **HTML, CSS, and JavaScript**, this project showcases seamless animations, smooth scrolling, and a user-friendly interface.
 
@@ -22,4 +22,4 @@ Travel.Io is a modern, responsive, and interactive travel-themed landing page de
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/travel-io.git
+   git clone https://github.com/akarsh-dwivedi-7/-PRODIGY_WD_01-.git
